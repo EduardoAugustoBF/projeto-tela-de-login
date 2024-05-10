@@ -117,3 +117,10 @@ h1 {
 .cadastro p a:hover {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 600px) {
+  .container {
+    height: 100px;
+    line-height:100px;
+  }
+}
